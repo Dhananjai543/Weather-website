@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Shinchan</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="main-content">
+        {{>header}} 
+        <h1>{{title}} - {{name}}</h1>
+        <div class="align-horizontal">
+            <img class="portrait" src="/img/download.jfif">
+            <div>
+                <p id="message-1"></p>
+                <p id="message-2"></p>
+            </div>
+        </div>
+    </div>
+
+    <form>
+        <input placeholder="Location">
+        <button>Search</button>
+    </form>
+
+    {{>footer}} 
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

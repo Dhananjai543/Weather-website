@@ -1,0 +1,51 @@
+body {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    background: greenyellow;
+    border-top: 1px solid green;
+    margin: 16px;
+    padding: 16px;
+}
+
+header {
+    margin-top: 16px;
+    background-color: antiquewhite;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+/* Targeting links inside header */
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 150px;
+}
+
+.align-horizontal {
+    display: flex;
+}
+
+.align-horizontal p {
+    margin-left: 130px;
+}
